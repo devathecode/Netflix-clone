@@ -25,9 +25,9 @@ const Header = () => {
                 Your browser does not support the video tag.
             </video>
             <div
-                className={`absolute z-50 top-0 min-w-fit bg-gradient-to-b from-[#1a1a1a] via-transparent to-[#1a1a1a] ${navbar ? '' : 'container pt-2 pb-6'}`}>
+                className={`absolute z-50 top-0 min-w-fit bg-gradient-to-b from-[#1a1a1a] via-transparent to-[#141414] ${navbar ? '' : 'container pt-2 pb-6'}`}>
                 <div
-                    className={`grid grid-cols-12 gap-1 z-50 tracking-[-0.05rem] w-full px-9 fixed transition-all ease-in-out duration-100 ${navbar ? 'bg-gradient-to-b from-black to-[#1a1a1a] py-4 top-0' : 'top-5'}`}>
+                    className={`grid grid-cols-12 gap-1 z-50 tracking-[-0.05rem] w-full px-9 fixed transition-all ease-in-out duration-100 ${navbar ? 'bg-gradient-to-b from-black to-[#141414] py-4 top-0' : 'top-5'}`}>
                     <div className="col-span-1">
                         <div className="text-red-700 uppercase font-bold flex flex-row">
                             <h1 className="text-[2rem] leading-[2.4rem]">N</h1>

@@ -924,8 +924,13 @@ const Imagecard = (props: any) => {
             {props.children}
             <div className="flex space-x-2 pl-8">
                 {images.map((image: any, index: number) => (
-                    <div key={image.id} id={image.id} className={`${index === 5 ? '' : 'group hover:scale-150'} shadow rounded-sm col-span-2 transition-all ease-linear duration-200 delay-150 cursor-pointer h-28`}>
-                        <img src={image.urls.regular} alt={image.alt_description} className="min-w-[16rem] h-28 group-hover:h-36 object-cover transition-all ease-linear duration-200 delay-150" />
+                    <div key={image.id}
+                         id={image.id}
+                         className={`${index === 5 ? '' : 'group hover:scale-150'} shadow rounded-sm col-span-2 transition-all
+                          ease-linear duration-200 delay-150 cursor-pointer h-28`}>
+                        <img src={image.urls.regular}
+                             alt={image.alt_description}
+                             className="min-w-[16rem] h-28 group-hover:h-36 object-cover transition-all ease-linear duration-200 delay-150" />
                         <div className={`px-4 py-4 hidden group-hover:block bg-[#1a1a1a]`}>
                             <div className="flex justify-between">
                                 <div className="order-first flex flex-row space-x-2">
